@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovertable</title>
+    <style>
+        .one{
+            width: 1000px;
+           margin: 100px;
+           height: 150px;
+        }
+        th, td {
+  padding: 10px;
+  text-align: center;
+}
+.first:hover{
+    background-color:brown;
+    color: white;
+    cursor: grab;
+}
+.second:hover{
+    background-color:aqua;
+    color:midnightblue;
+    cursor: grab;
+}
+.third:hover{
+    background-color:darkkhaki;
+    color:royalblue;
+    cursor: grab;
+}
+.fourth:hover{
+    background-color:deeppink;
+    color:honeydew;
+    cursor: grab;
+}
+table{
+    background-color: bisque;
+}
+body{
+    background-color: yellowgreen;
+}
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>hoverable table</h1><br><br>
+        <code>move the mouse over the table rows and see the effect</code>
+        <table class="one" border="">
+            <tr class="first">
+                <th>first name</th>
+                <th>last name</th>
+                <th>points</th>
+                
+            </tr>
+            <tr class="second">
+                <td>binita</td>
+                <td>bhavsar</td>
+                <td>100</td>
+            </tr>
+            <tr class="third">
+                <td>gargi</td>
+                <td>boricha</td>
+                <td>250</td>
+            </tr>
+            <tr class="fourth">
+                <td>shivani</td>
+                <td>mehta</td>
+                <td>140</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
